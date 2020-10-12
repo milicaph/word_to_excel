@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.IOException;
 
-public class Main {
+public class Parser {
 
     public static void main(String[] args) throws IOException {
 

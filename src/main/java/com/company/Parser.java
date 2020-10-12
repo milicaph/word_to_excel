@@ -8,11 +8,11 @@ public class Main {
 
         //BoardSeatsFiles.copyRequiredFiles();
         TableIndexes tableIndexes = new TableIndexes();
-/*
+
         for(String file : BoardSeatsFiles.filesToProcess()) {
             if(!file.contains("$"))
             tableIndexes.getTableIndexes(file);
-        }*/
+        }
 
         tableIndexes.writeTableData();
     }
